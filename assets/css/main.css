@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Noto Sans', 'Helvetica', sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fix h2 {
+    margin-top: 100px;
+}
+
+.group {
+    display: flex;
+    gap: 10px;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff5d5d;
+    transition: all ease 0.2s;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+button {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1.8px solid #1c1c1c;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    background-color: #202020;
+    border: 1.8px solid #202020;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.player iframe {
+    position: fixed;
+    left: 61px;
+    width: calc(100% - 61px);
+    height: 100vh;
+    border: none;
+}
+
+#datetime {
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1.8px solid #1c1c1c;
+    outline: none;
+    transition: all ease 0.2s;
+}
+
+input:focus {
+    background-color: #202020;
+    border: 1.8px solid #202020;
+    cursor: pointer;
+}
